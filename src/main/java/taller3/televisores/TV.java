@@ -10,8 +10,8 @@ public class TV {
 	private static int numTV;
 	public TV(Marca marca, boolean estado) {
 		this.marca = new Marca(marca.getNombre());
-		numTV++;
 		this.estado = estado;
+		numTV++;
 	}
 	//Get_Set_marca
 	public Marca getMarca() {
