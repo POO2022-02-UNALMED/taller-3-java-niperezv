@@ -45,7 +45,7 @@ public class TV {
 		}
 	}
 	//Get_NumTV
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	//Get_Set_control
@@ -68,10 +68,10 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	public static void setnumTV(int numTV) {
+	public static void setNumTV(int numTV) {
 		TV.numTV=numTV;
 	}
-	public static int getnumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	public void turnOn() {
